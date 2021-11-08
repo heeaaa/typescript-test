@@ -9,3 +9,21 @@ console.log('---------------------------------');
 for(let i of reviews) {
     console.log(`${i}`);
 }
+
+console.log('---------------------------------');
+
+let sportsOne: string[] = ["Golf", "Volleyball", "Tennis", "Basketball"];
+
+for (let sport of sportsOne) {
+    console.log(`${sport}`);
+}
+
+sportsOne.push("Baseball");
+sportsOne.push("Cricket");
+
+console.log('---------------------------------');
+
+for (let sport of sportsOne) {
+    console.log(`${sport}`);
+}
+ 
